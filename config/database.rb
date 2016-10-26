@@ -29,14 +29,8 @@ ActiveRecord::Base.configurations[:development] = {
 ActiveRecord::Base.configurations[:production] = {
   :adapter   => 'mysql2',
   :encoding  => 'utf8',
-  :reconnect => true,
-  :database  => 'impossible_form_production',
-  :pool      => 5,
-  :username  => 'root',
-  :password  => '',
-  :host      => 'localhost',
-  :socket    => '/tmp/mysql.sock'
-
+  :url       => ENV['DATABASE_URL'],
+  :pool      => 5
 }
 
 ActiveRecord::Base.configurations[:test] = {
