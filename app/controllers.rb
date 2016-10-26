@@ -12,4 +12,8 @@ ImpossibleForm::App.controllers  do
     redirect(destination)
   end
 
+  get '/health' do
+    'hello world'
+  end
+
 end
