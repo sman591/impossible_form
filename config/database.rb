@@ -26,12 +26,7 @@ ActiveRecord::Base.configurations[:development] = {
 
 }
 
-ActiveRecord::Base.configurations[:production] = {
-  :adapter   => 'mysql2',
-  :encoding  => 'utf8',
-  :url       => ENV['DATABASE_URL'],
-  :pool      => 5
-}
+ActiveRecord::Base.configurations[:production] = nil # load from ENV['DATABASE_URL']
 
 ActiveRecord::Base.configurations[:test] = {
   :adapter   => 'mysql2',
