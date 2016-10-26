@@ -21,3 +21,6 @@ gem 'mysql2'
 
 # Padrino Stable Gem
 gem 'padrino', '0.13.3.2'
+
+# Custom gems
+gem 'email_validator'
