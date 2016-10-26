@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-# Padrino supports Ruby version 1.9 and later
-# ruby '2.3.1'
+ruby IO.read(File.expand_path("../.ruby-version", __FILE__)).chomp
 
 # Distribute your app as a gem
 # gemspec
