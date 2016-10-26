@@ -6,7 +6,7 @@ ruby IO.read(File.expand_path("../.ruby-version", __FILE__)).chomp
 # gemspec
 
 # Server requirements
-# gem 'thin' # or mongrel
+gem 'thin' # or mongrel
 # gem 'trinidad', :platform => 'jruby'
 
 # Project requirements
