@@ -1,5 +1,8 @@
+require 'rollbar/middleware/sinatra'
+
 module ImpossibleForm
   class App < Padrino::Application
+    use Rollbar::Middleware::Sinatra
     use ConnectionPoolManagement
     register Padrino::Mailer
     register Padrino::Helpers
