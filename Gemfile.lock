@@ -25,6 +25,7 @@ GEM
     mime-types (2.99.3)
     minitest (5.9.1)
     moneta (0.8.0)
+    multi_json (1.12.1)
     mustermann19 (0.4.4)
       enumerable-lazy
     mysql2 (0.4.5)
@@ -67,6 +68,8 @@ GEM
     rack-protection (1.5.3)
       rack
     rake (11.3.0)
+    rollbar (2.13.3)
+      multi_json
     sinatra (1.4.7)
       rack (~> 1.5)
       rack-protection (~> 1.4)
@@ -90,6 +93,7 @@ DEPENDENCIES
   mysql2
   padrino (= 0.13.3.2)
   rake
+  rollbar
   thin
 
 RUBY VERSION
