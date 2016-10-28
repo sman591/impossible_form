@@ -1,6 +1,6 @@
 ImpossibleForm::App.controllers  do
 
-  homepage = 'https://piedoom.github.io/impossible/'
+  homepage = 'http://dotheimpossible.tech/'
   failed_homepage = "#{homepage}?email_failed=true"
 
   get '/' do
