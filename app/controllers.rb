@@ -1,6 +1,6 @@
 ImpossibleForm::App.controllers  do
 
-  homepage = 'http://dotheimpossible.tech/'
+  homepage = 'https://dotheimpossible.tech/'
   failed_homepage = "#{homepage}?email_failed=true"
 
   get '/' do
